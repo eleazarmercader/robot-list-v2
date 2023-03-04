@@ -12,3 +12,10 @@ h1 {
   font-weight: 200;
   color: #1d1795;
 }
+
+.adv {
+  font-size: 0.65em;
+  color: #1d1795;
+  font-style: italic;
+  margin-bottom: 0;
+}

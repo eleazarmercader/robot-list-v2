@@ -26,6 +26,7 @@ function App() {
   (
     <div className='tc'>
       <h1 className='f1'>RobotList</h1>
+      <p className='adv'>(Type in the searchbox to look for RobotFriends dynamically!)</p>
       <SearchBox searchChange={onSearchChange}/>
       <Scroll>
         <CardList robots={filteredRobots} />
